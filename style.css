@@ -1,0 +1,52 @@
+body{
+    background-color:rgb(224, 214, 244);
+    text-align: center;
+
+}
+a{
+    text-decoration: none;
+    font-family: 'BRUSH SCRIPT MT';
+}
+[src='Без названия.jpg']{
+    width: 50;
+}
+header button{ 
+    background-color:rgb(253, 240, 240);
+    border: 1px solid 5px;
+    border-radius: 20px;
+    width: 300px;
+    font-size: 15pt;
+    font-family: 'matura mt script capitals';
+    
+}
+header{
+    display: flex;
+    align-items: center;
+    background-color:rgb(176, 206, 223);
+    
+}
+footer{
+    background-color:rgb(176, 206, 223);
+}
+.annotaciya{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    border: 3px dashed rgb(176, 206, 223);
+    align-items: center;
+    background-color: rgb(255, 245, 245);
+}
+.q{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
