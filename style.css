@@ -1,13 +1,11 @@
 body{
     background-color:rgb(224, 214, 244);
-
+    text-align: center;
 
 }
-.a{
+a{
     text-decoration: none;
     font-family: 'BRUSH SCRIPT MT';
-	display: flex;
-    border: 10px solid rgb(255, 245, 245));
 }
 [src='Без названия.jpg']{
     width: 50;
@@ -19,7 +17,7 @@ header button{
     width: 300px;
     font-size: 15pt;
     font-family: 'matura mt script capitals';
-    
+
 }
 header{
     display: flex;
@@ -31,34 +29,49 @@ footer{
     background-color:rgb(176, 206, 223);
 }
 .annotaciya{
-	width:80%;
+    width: 600px;
     display: flex;
     justify-content: space-between;
     border: 3px dashed rgb(176, 206, 223);
     align-items: center;
     background-color: rgb(255, 245, 245);
+    font-size: 20px;
 }
 .q{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-	width:30%;
+    justify-content: space-around;
+    padding: 20px 0px;
+}
+.modee{
+    background-color: rgb(255, 245, 245);
+    cursor: pointer;
+    align-items: right;
+    position: absolute;
+    right: 10px;
+    padding: 10px -20px;
+    color: black;
+}
+.modee:hover{
+    background-color: rgb(15, 7, 62);
+    color: aliceblue;
 }
 
 .photo{
     margin-top: 50px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    flex-direction: column;
+    padding: 20px 0px;
     margin-top: 100px;
-.header button{ 
-    background-color:rgb(253, 240, 240);
-	display: flex;
-    align-items: left;
-    border: 1px solid 5px;
-    border-radius: 20px;
-    width: 300px;
-    font-size: 20pt;
-    font-family: 'matura mt script capitals';
+}
+.main-1{
+    background-color: rgb(30, 46, 88);
+    color: aliceblue;
+}
+.main-2{
+    background-color: rgb(15, 7, 62);
+    color: aliceblue;
 }
 
