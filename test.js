@@ -1,4 +1,4 @@
-
+AOS.init();
 
 function dark_mode(){
     let is_dark = localStorage.getItem('dmode')
