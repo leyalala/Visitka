@@ -96,3 +96,7 @@ footer {
 .qe:hover {
     transform: rotateZ(+180deg);
   }
+.ddddddd{
+    display: flex;
+  align-items: left;
+  }
